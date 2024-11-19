@@ -29,6 +29,15 @@ To deploy the app, index.html in the templates folder and mywebscript.js in the 
 When interacting with the html interface, clicking the "Run Sentiment Analysis" button calls the javascript file, which in turn executes a GET request and takes the text provided by the user as input.This text, saved in a variable named textToAnalyze, is then passed on to the server file to be sent to the application. The main task in this project, however, was the completion of server.py.
 server.py initiates the application of sentiment analysis to be executed over the Flask channel and deployed on localhost:5000
 
+### Run
+Make sure you have Python and Flask installed.
+Fork and clone this repository, and navigate to the project directory using the cd command.
+Open the Python terminal in the shell and run server.py
+
+If using Cloud Skills IDE, navigate to Skills Network Toolbox and launch application
+
+Make sure your port is 5000 and launch either in brower or in a new window in the IDE.
+
 ### Notes
 - This app works with several languages including French and German. Feel free to test more and see if you get an invalid text error!
 - Static code analysis was performed to ensure that the code for sentiment_analysis.py and server.py follow PEP8 guidelines
